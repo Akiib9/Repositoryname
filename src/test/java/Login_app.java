@@ -14,7 +14,7 @@ public class Login_app {
 		driver.findElement(By.xpath("//input[@name='password']")).sendKeys("admin123");
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
 		Thread.sleep(4000);
-		driver.findElement(By.xpath("//button[@type='button']")).click();
+		driver.findElement(By.xpath("//button[@class='oxd-button oxd-button--medium oxd-button--secondary']")).click();
 		driver.findElement(By.xpath("//input[@name='firstName']")).sendKeys("Aquib");
 		driver.findElement(By.xpath("//input[@name='middleName']")).sendKeys("Ishraque");
 		driver.findElement(By.xpath("//input[@name='lastName']")).sendKeys("Shaikh");
