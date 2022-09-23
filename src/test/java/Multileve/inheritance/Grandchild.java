@@ -1,10 +1,18 @@
 package Multileve.inheritance;
 
-public class Grandchild {
+public class Grandchild extends Child {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Grandchild obj=new Grandchild();
+		obj.Scada();
 
 	}
-
+      public void Camel()
+      {
+    	  System.out.println("Camel is animal");
+      }
+      public void Travels()
+		{
+		System.out.println("Travels to goa");
+		}
 }

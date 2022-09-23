@@ -1,10 +1,16 @@
 package Hierachical.inheritance;
 
-public class Mchild {
+public class Mchild extends Gchild{
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+          Mchild obj=new Mchild();
+          obj.Bike();
+          Mchild obj2=new Mchild();
+          obj2.Keyboard();
 	}
+	public void Keyboard()
+    {
+ 	   System.out.println("Keyboard is part of comp");
+    }
 
 }

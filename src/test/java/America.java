@@ -35,5 +35,9 @@ public class America implements Australian,Canada{
 		System.out.println("tiger is a animal");
 		
 	}
+	public void jiraaf() {
+		// TODO Auto-generated method stub
+		
+	}
 
 }

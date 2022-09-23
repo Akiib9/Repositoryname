@@ -1,9 +1,10 @@
 package Hierachical.inheritance;
 
-public class Mparent {
+public class Mparent extends Gchild{
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Gchild obj=new Mparent();
+		obj.Bike();
 
 	}
 
